@@ -118,6 +118,32 @@ footer {
     width: 1350px;
     background-color: black;
 }
+.logo
+{
+    padding-left: 20px;
+
+}
+.logo image {
+    padding-left: 50px;
+
+}
 li a {
-    color: whitesmoke;
+    color: navajowhite;
+}
+
+section {
+    background-image: url("images/library1.jpeg");
+    height: 550px;
+}
+.box {
+    height : 400px;
+    width: 450px;
+    background-color: lightgrey;
+    margin: 20px auto;
+
+}
+.box h1 {
+    color: black;
+    font-size: 25px;
+    opacity: .6;
 }
