@@ -166,3 +166,10 @@ section .sec_img {
     margin-top: 0px;
 
 }
+form .login {
+    margin: 20px auto 70px;
+}
+input {
+    height : 20px;
+    width: 100px;
+}
