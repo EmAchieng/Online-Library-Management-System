@@ -1,3 +1,11 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -131,10 +139,12 @@ li a {
     color: navajowhite;
 }
 
-section {
-    background-image: url("images/library1.jpeg");
-    height: 550px;
-}
+
+section .sec_img {
+     background-image: url("images/library1.jpeg");
+     height: 550px;
+     margin-top: 0px;
+ }
 .box {
     height : 400px;
     width: 450px;
@@ -146,4 +156,13 @@ section {
     color: black;
     font-size: 25px;
     opacity: .6;
+}
+
+
+/*------------------------------------------------student login---------------------------------------*/
+.log_img {
+    background-image: url("images/pages.jpg");
+    height: 650px;
+    margin-top: 0px;
+
 }
