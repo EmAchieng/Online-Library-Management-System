@@ -160,6 +160,16 @@ section .sec_img {
 
 
 /*------------------------------------------------student login---------------------------------------*/
+.box1 {
+    height: 450px;
+    width: 450px;
+    background-color: black;
+    margin: 70px auto;
+    opacity: 7;
+    color: white;
+    padding: 20px;
+
+}
 .log_img {
     background-image: url("images/pages.jpg");
     height: 650px;
