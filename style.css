@@ -170,6 +170,18 @@ section .sec_img {
     padding: 20px;
 
 }
+/*nav {
+    float: right;
+    word-spacing: 30px;
+    padding: 20px;
+}
+
+nav li {
+    display: inline-block;
+    line-height: 80px;
+}
+*/
+
 .log_img {
     background-image: url("images/pages.jpg");
     height: 650px;
