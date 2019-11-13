@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slide Show</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body style="background-color: yellowgreen">
+    <div class=" w3-content w3-section" style="width: 800px;">
+        <img class="mySlides w3-animate-left" src ="images/glass.png" style="width: 100%">
+        <img class="mySlides w3-animate-left" src="images/oldschool.png" style="width: 100%">
+        <img class="mySlides w3-animate-fading" src="images/beach.png" style="width: 100%">
+        <img class="mySlides w3-animate-fading" src="images/latemigrations.jpg" style="width: 100%">
+
+    </div>
+<script type="text/javascript">
+    var a=0;
+    carousel();
+    
+    function carousel() {
+        //declare variable
+        var i;
+        var x= document.getElementsByClassName("mySlides");
+
+        //displays number of image
+        //one image shows; other none
+        document.write(x.length);
+        for (i=0; i<x.length; i++) {
+            //to display the element
+            //start from 0 to the length of the array
+            x[i].style.display= "none";
+        }
+        //a incremented by 1
+        a++;
+
+        if(a > x.length) {a = 1}
+        x[a-1].style.display = "block";
+        //call the function
+        //image changes after 5 seconds
+        setTimeout(carousel, 5000)
+
+    }
+</script>
+</body>
+</html>
